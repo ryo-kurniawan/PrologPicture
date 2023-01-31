@@ -1,0 +1,72 @@
+#app {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.router-link-exact-active{
+    font-weight: bold;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.breadcrumb-item{
+    font-size: 12px;
+}
+
+.btn-primary {
+    background-color: #ecbe47;
+    border-color: #ecbe47;
+}
+.btn-primary:hover {
+    background-color: #d4a52c;
+    border-color: #d4a52c;
+}
+
+.badge-success {
+    background-color: #ecbe47;
+}
+
+.card-paket {
+    border-radius: 15px;
+    max-width: 99%;
+    max-height: 100%;
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        
+}
+
+.card-body {
+    width: 100%;
+    height: 100%;
+}
+
+.img-box {
+    width: 100%;
+    height: 160px;
+}
+
+.card-img-top {
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 100%;
+    height: 100%;
+        object-fit: cover;
+}
+
+.detail-image {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-detail-box {
+    width:80%;
+    height: 100%;
+}
+
+
+
+

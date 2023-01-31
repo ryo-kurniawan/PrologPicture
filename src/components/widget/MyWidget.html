@@ -1,0 +1,25 @@
+  <!-- Card khusus untuk product -->
+  <div class="card">
+    <div class="row no-gutters">
+      <div class="col-md-4">
+        <img
+          :src="'assets/images/products/' + paket.gambar"
+          class="card-img-top h-100"
+          alt="..."
+        />
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">{{ paket.nama }}</h5>
+          <p class="card-text">Harga : Rp. {{ paket.harga }}</p>
+          <a href="#" class="btn btn-primary"
+            ><b-icon-cart></b-icon-cart> Order
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Akhir Card khusus untuk product -->
+
+
+  
